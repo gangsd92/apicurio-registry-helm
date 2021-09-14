@@ -11,6 +11,11 @@ registry:
   #   username: apicurio
   #   password: apicurio-password
 
+  sql:
+    url: jdbc:postgresql://schema-registry-pgsql-db-instance.c5mty1ng1k0d.us-east-1.rds.amazonaws.com/apicurio-registry
+    username: postgres
+    password: apicurio
+
   image:
     registry: "quay.io"
     repository: "apicurio/apicurio-registry"
